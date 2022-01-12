@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',
+    sans-serif;
+    background-color: #E5E5E5;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+   width: 870px;
+   background-color: #FFFFFF;
+   padding: 30px 30px;
+   border-radius: 5px;
+   margin-top: 36px;
+
+}
+header{
+    background-color: blue;
+    padding: 20px 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+.menu-photo{
+    width: 51px;
+    height: 51px;
+}
+.logo-icon{
+    display: flex;
+}
+.logo-icon img{
+    width: 40.42pxpx;
+    height: 51px;
+    padding-right: 15px;
+    padding-top: 10px;
+    
+}
+.logo-icon h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 20px;
+}
+
+.nav-menu img{
+    height: 51px;
+    width: 51px;
+}
+.top-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #562EFF;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player h3{
+    font-size: 18px;
+    color: black;
+    line-height: 27px;
+    font-weight: 500;
+    padding-left: 16px;
+}
+
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    margin-top: 10px;
+}
+
+.blog{
+    display: flex;
+    align-items: center;
+}
+
+
+.blog-thumnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-author{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #562EFF;
+}
+.Courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.course-bannar img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+
+
+
